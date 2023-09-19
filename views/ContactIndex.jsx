@@ -4,5 +4,4 @@ export function ContactIndex() {
             <h1>ContactIndex</h1>
         </section>
     )
-
 }
