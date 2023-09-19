@@ -12,8 +12,8 @@ export function App() {
             <section className="app">
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/" element={<ContactDetails />} />
-                    <Route path="/" element={<ContactIndex />} />
+                    <Route path="/contact/:contactId" element={<ContactDetails />} />
+                    <Route path="/contact" element={<ContactIndex />} />
                 </Routes>
             </section>
         </Router>
