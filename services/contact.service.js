@@ -4,6 +4,7 @@ import { utilService } from './util.service.js'
 const STORAGE_KEY = 'contactDB'
 
 _createContacts()
+console.log('hi')
 
 export const contactService = {
     query,
