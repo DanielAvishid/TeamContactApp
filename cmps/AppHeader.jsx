@@ -1,7 +1,7 @@
 export function AppHeader() {
     return (
         <section>
-            <h1>AppHeader</h1>
+            <h2>AppHeader</h2>
         </section>
     )
 }
