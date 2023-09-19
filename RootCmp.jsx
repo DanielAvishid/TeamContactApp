@@ -3,9 +3,7 @@ const Router = ReactRouterDOM.HashRouter
 const { Provider } = ReactRedux
 
 import { AppHeader } from './cmps/AppHeader.jsx'
-import { About } from './views/About.jsx'
 import { Home } from './views/Home.jsx'
-import { TodoApp } from './views/TodoApp.jsx'
 import { store } from './store/store.js'
 
 export function App() {
@@ -16,8 +14,6 @@ export function App() {
                     <AppHeader />
                     <Routes>
                         <Route path="/" element={<Home />} />
-                        <Route path="/about" element={<About />} />
-                        <Route path="/todo" element={<TodoApp />} />
                     </Routes>
                 </section>
             </Router>
