@@ -4,7 +4,6 @@ const { Provider } = ReactRedux
 
 import { AppHeader } from './cmps/AppHeader.jsx'
 import { Home } from './views/Home.jsx'
-import { store } from './store/store.js'
 
 export function App() {
     return (
